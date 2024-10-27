@@ -1,0 +1,17 @@
+etiqueta{
+  color:rgb(225, 13, 233)
+}
+.red
+{
+  height: 200px;
+  width: 100px;
+  background-color: red;
+}
+#boton-pago{
+  background-color: rgb(0, 255, 179);
+}
+
+td{
+  border: solid 1px;
+}
+
