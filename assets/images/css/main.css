@@ -20,4 +20,5 @@ html{
 .title-item{
   border-bottom-style: solid;
   border-width: 2px;
+  border-top-style: dashed;
 }
