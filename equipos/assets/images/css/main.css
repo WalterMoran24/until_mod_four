@@ -28,8 +28,8 @@ html{
 
 .actions{
   position: absolute;
-  top:lem;
-  right: lem;
+  top:10px;
+  right: 10px;
 }
 
 .close{
