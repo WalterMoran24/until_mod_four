@@ -19,6 +19,5 @@ html{
   font-family: "Nunito", sans-serif;
 }
 .title-item{
-  border-bottom-style: solid;
-  border-width: 2px;
+  border-bottom-style: solid 2px;
 }
