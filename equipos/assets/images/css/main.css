@@ -26,6 +26,12 @@ html{
     font-family: "Nunito", sans-serif;
   }
 
+.actions{
+  position: absolute;
+  top:lem;
+  right: lem;
+}
+
 .close{
   height: 40px;
   width: 40px;
