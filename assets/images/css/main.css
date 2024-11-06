@@ -21,3 +21,7 @@ html{
 .title-item{
   border-bottom-style: solid 2px;
 }
+.position{
+  background-color: #000;
+  color: white;
+}
