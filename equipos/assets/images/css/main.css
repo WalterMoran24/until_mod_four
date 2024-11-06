@@ -26,3 +26,17 @@ html{
     font-family: "Nunito", sans-serif;
   }
 
+.close{
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block;
+
+  font-weight: 300;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
