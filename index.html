@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> bicho.bicho_ss</title>
     <link rel="stylesheet" href="./assets/images/css/main.css">
     <link href="./assets/images/css/main.css" rel="stylesheet">
@@ -13,29 +12,6 @@
   <body style=" margin: 0; padding: 0">
     <div class="container"> <!--el fondo completo de la pantalla-->
       <div class="content"> <!--el cuadrito del centro-->
-
-        <div id="content" style="display: none;">
-          <h1>Bienvenido a la página protegida</h1>
-          <p>¡Has ingresado correctamente!</p>
-        </div>
-
-        <div id="login">
-          <h1>Ingrese su contraseña</h1>
-          <input type="password" id="password" placeholder="Contraseña">
-          <button onclick="checkPassword()">Ingresar</button>
-        </div>
-
-        <script>
-        function checkPassword() {
-          const password = document.getElementById('password').value;
-          if (password === 'cocodrilo') {
-            document.getElementById('login').style.display = 'none';
-            document.getElementById('content').style.display = 'block';
-          } else {
-            alert('Contraseña incorrecta, intente de nuevo.');
-          }
-        }
-        </script>
 
 <!--#################################################################################################################-->
         <header style="text-align: center;color: yellow;">
