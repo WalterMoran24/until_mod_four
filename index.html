@@ -1,79 +1,51 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title> bicho.bicho_ss</title>
-    <link rel="stylesheet" href="./assets/images/css/main.css">
-    <link href="./assets/images/css/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Itim&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-  </head>
-  <body style=" margin: 0; padding: 0">
-    <div class="container"> <!--el fondo completo de la pantalla-->
-      <div class="content"> <!--el cuadrito del centro-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Protegida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        #protected-content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ingrese su contraseña</h1>
+        <input type="password" id="password" placeholder="Contraseña">
+        <button onclick="checkPassword()">Ingresar</button>
+        
+        <div id="protected-content">
+            <h2>¡Bienvenido a la página protegida!</h2>
+            <p>Has ingresado correctamente. <a id="protected-link" href="#">Ir a otra página</a></p>
+        </div>
+    </div>
 
-<!--#################################################################################################################-->
-        <header style="text-align: center;color: yellow;">
-          <!--los head vendrian a ser los titulos y los tbody cada columna-->
-          <h1 class="animate__animated animate__bounce animate__delay-2s" style="display: inline-block;width: 50%; font-weight: 400;padding: 16px;" class="title-item">Sociedad Secreta del BICHO BICHO 🐊 🐊</h1><!--style="text-align: center;"-->
-<!--#################################################################################################################-->
-        </header>
-        <div>
-          <div>
-            <img src="el bicho bicho.jpeg" style="display: block; margin: 0 auto; width: 40%; height: 20%;">
-        </div>
-        <div style="text-align: center;font-size: 36px; font-weight: 700;margin-bottom: 20px;margin-top: 40px;">
-          ATENCION! Leer detenidamente las reglas de esta sociedad
-        </div>
-        <div style="width: 1000px;height: 1000px;margin-right:auto;margin-left: auto;"> <!--agrandar de aca para que entre la parte de playlist y mas cosas-->
-        <dl style="text-align: left;">
-          <dt style="font-size: 20px;">1° Roberto:</dt>
-          <dd>Este grupo es SECRETO🤫</dd>
-          <dt style="font-size: 20px;">2° Juan:</dt>
-          <dd>No se admiten mascotas (salvo el bicho bicho).🐊</dd>
-          <dt style="font-size: 20px;">3° Roberto:</dt>
-          <dd>Deben asistir al 80% de las actividades y cumpleaños. 🥳</dd>
-          <dt style="font-size: 20px;">4° Laura: </dt>
-          <dd>En las actividades/cumpleaños ningún conductor descansa. O en su efecto llevar un suplente.🕺💃</dd>
-          <dt style="font-size: 20px;">5° Mariano: </dt>
-          <dd>Robert no crea más grupos top secret💥</dd>
-          <dt style="font-size: 20px;">6° Malena: </dt>
-          <dd>Franco sólo puede bailar cómo conducido siempre y cuando no haya otra conducida esperando. 🕺🏻</dd>
-          <dt style="font-size: 20px;">7°Laura</dt>
-          <dd>Los msj de este grupo solo se pueden editar .NO SE ELIMINAN . 😎</dd>
-          <dt style="font-size: 20px;">8°Laura: </dt>
-          <dd>Entre los miembros de la sociedad secreta está permitido robarse sticker.😉</dd>
-          <dt style="font-size: 20px;">9°Mariano</dt>
-          <dd>Los cocodrilos deben estar presentes como complemento del outfit en cada evento oficial de la sociedad.🐊🎉</dd>
-          <dt style="font-size: 20px;">10°Mariano</dt>
-          <dd>No hablar ni mencionar sobre esta sociedad secreta en otros lugares o grupos 🤫</dd>
-          <dt style="font-size: 20px;">11°Malena: </dt>
-          <dd>El cocodrilo es un especimen generoso,ante cualquier logro de alguno de sus miembros, todo el estanque lo celebrará.</dd>
-        <div>
-          <h3 style ="font-size:20px;font-weight: 700;"><span class="position">A</span>  Playlists de DJ Male:</h3>
-          <a href="https://open.spotify.com/playlist/2lLZ7GRF1nFVhmpJoImzO8?si=ad647f31de374e82" style="color: black;margin-bottom: 20px;margin-top: 40px;"> Salsa</a>
-          <br>
-          <br>
-          <a href="https://open.spotify.com/playlist/0xz7EFvDIYoPBZgeIkkaMo?si=8d304703ab524d24"style="color: black;">Cachengue</a>
-        </div>
-        <div>
-          <h3 style ="font-size:20px;font-weight: 700;"><span class="position">B</span>  Eventos oficiales de la sociedad:</h3>
-          <a href="./equipos/teams.html"style="color: black;">cumpleaños</a>
-        </div>
-        <div>
-          <h3 style ="font-size:20px;font-weight: 700;"><span class="position">C</span>  Cancion oficial:</h3>
-          <a href="https://www.youtube.com/watch?v=QmM3yTl7bok"style="color: black;">Los fatales - el 🐊 🐊</a>
-        </div>
-        </div>
-      </div>
-    </body>
-    </html>
-    <!-- aqui va el comentario-->
- <!-- <br> es un quiebre de linea-->
- <!--<th>N°</th>
-     <th>Autor</th>
-    <th>Descripcion</th>
-            <div>
-          <h1 class="animate__animated animate__shake">An animated element</h1>
-        </div>-->
+    <script>
+        function checkPassword() {
+            const password = document.getElementById('password').value;
+            const protectedContent = document.getElementById('protected-content');
+            const protectedLink = document.getElementById('protected-link');
+
+            if (password === 'cocodrilo') {
+                protectedContent.style.display = 'block';
+                protectedLink.href = 'https://waltermoran24.github.io/until_mod_four/equipos/teams.html'; // Aquí se establece el href del enlace
+            } else {
+                alert('Contraseña incorrecta, intente de nuevo.');
+            }
+        }
+    </script>
+</body>
+</html>
